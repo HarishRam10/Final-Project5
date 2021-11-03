@@ -1,6 +1,8 @@
 # NLP_FinalProject
 NLP - Final Project
 
+Authors: Harish Ram, Sisi Zhang, Zhuohan Yu
+
 Background:
 
 The problem that we selected was analyzing movie reviews and interpreting the text in each review to determine whether the review contained an overall positive or negative sentiment. By doing this, we can demonstrate specific words and phrases reviewers typically utilize to indicate how they feel about a movie.
