@@ -21,9 +21,8 @@ from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS as sklearn_stop_w
 nltk_stop_words = nltk.corpus.stopwords.words('english')
 
 stop_words = set(nltk_stop_words).union(sklearn_stop_words)
-stop_words.remove('no')
+stop_words.remove('no') # well
 print(len(stop_words))
-
 
 
 # convert pos_tag
@@ -127,5 +126,7 @@ df_train.to_csv(r'F:\Github\NLP_FinalProject\Data\df_corrected\df_train.csv', en
 df_val.to_csv(r'F:\Github\NLP_FinalProject\Data\df_corrected\df_val.csv', encoding="'utf-8-sig'")
 df_test.to_csv(r'F:\Github\NLP_FinalProject\Data\df_corrected\df_test.csv', encoding="'utf-8-sig'")
 
+
+# %%
 
 # %%
